@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node ./init.js"
+    "start": "node init.js"
   },
   "author": "chov.dev",
   "license": "ISC",

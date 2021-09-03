@@ -3,9 +3,11 @@ import Discord from 'discord.js';
 const client = new Discord.Client();
 const startBot = (token) => {
   client.login(token);
+  
   client.on('ready', () => {
     console.log(`✅ Bot logined as ${client.user.tag}`);
   });
+
   client.on('message', (msg) => {
     if (msg.content.startsWith("!#공지등록 ")) {
       let fixStatus = true;
