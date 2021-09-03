@@ -12,7 +12,5 @@
 
 > 📜 sensitive-infos.js 내용 (Root 위치에 반드시 있어야 합니다)
 ```
-const token = "토큰";
-
-export { token }
+export const token = "토큰";
 ```
