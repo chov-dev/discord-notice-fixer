@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./init.js"
+  },
+  "author": "chov.dev",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "discord.js": "^12.5.3",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "eslint": "^7.27.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "type": "module"
+}
