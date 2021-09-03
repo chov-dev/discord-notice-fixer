@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/56998563/131984767-5a445dc2-c4e8-4adb-ba3c-5892de9626ea.png)
+
 # 📌 Discord Notice Fixer
 > 📒 소개
 
